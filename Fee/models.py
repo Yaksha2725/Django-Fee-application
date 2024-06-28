@@ -19,3 +19,12 @@ class Fee_details(models.Model):
 
   def __str__(self):
     return f"{self.standard_id}"
+
+
+# class fetching_details(models.Model):
+#   student_id = models.IntegerField()
+#   start_date = models.DateField()
+#   end_date = models.DateField()
+
+#   def __str__(self):
+#     return f"{self.student_id}"
